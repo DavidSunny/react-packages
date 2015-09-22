@@ -106,8 +106,8 @@ module.exports = Cancellation;
 (function (global){
 'use strict';
 
-var invariant = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/invariant");
-var canUseDOM = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/ExecutionEnvironment").canUseDOM;
+var invariant = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/invariant");
+var canUseDOM = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/ExecutionEnvironment").canUseDOM;
 
 var History = {
 
@@ -287,7 +287,7 @@ module.exports = Navigation;
 (function (global){
 'use strict';
 
-var invariant = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/invariant");
+var invariant = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/invariant");
 var assign = require('object-assign');
 var qs = require('qs');
 
@@ -444,8 +444,8 @@ module.exports = PathUtils;
 (function (global){
 'use strict';
 
-var assign = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/Object.assign");
-var ReactPropTypes = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react").PropTypes;
+var assign = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/Object.assign");
+var ReactPropTypes = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react").PropTypes;
 var Route = require('./Route');
 
 var PropTypes = assign({}, ReactPropTypes, {
@@ -496,9 +496,9 @@ var _classCallCheck = function (instance, Constructor) { if (!(instance instance
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var assign = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/Object.assign");
-var invariant = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/invariant");
-var warning = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/warning");
+var assign = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/Object.assign");
+var invariant = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/invariant");
+var warning = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/warning");
 var PathUtils = require('./PathUtils');
 
 var _currentRoute;
@@ -696,8 +696,8 @@ module.exports = Route;
 (function (global){
 'use strict';
 
-var invariant = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/invariant");
-var canUseDOM = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/ExecutionEnvironment").canUseDOM;
+var invariant = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/invariant");
+var canUseDOM = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/ExecutionEnvironment").canUseDOM;
 var getWindowScrollPosition = require('./getWindowScrollPosition');
 
 function shouldUpdateScroll(state, prevState) {
@@ -1010,7 +1010,7 @@ var _inherits = function (subClass, superClass) { if (typeof superClass !== 'fun
  * between the "owner" and "parent" contexts.
  */
 
-var React = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react");
+var React = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react");
 
 var ContextWrapper = (function (_React$Component) {
   function ContextWrapper() {
@@ -1094,8 +1094,8 @@ var _createClass = (function () { function defineProperties(target, props) { for
 
 var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
 
-var React = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react");
-var assign = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/Object.assign");
+var React = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react");
+var assign = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/Object.assign");
 var PropTypes = require('../PropTypes');
 
 function isLeftClickEvent(event) {
@@ -1326,8 +1326,8 @@ var _createClass = (function () { function defineProperties(target, props) { for
 
 var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
 
-var React = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react");
-var invariant = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/invariant");
+var React = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react");
+var invariant = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/invariant");
 var PropTypes = require('../PropTypes');
 var RouteHandler = require('./RouteHandler');
 
@@ -1421,9 +1421,9 @@ var _createClass = (function () { function defineProperties(target, props) { for
 
 var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
 
-var React = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react");
+var React = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react");
 var ContextWrapper = require('./ContextWrapper');
-var assign = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/Object.assign");
+var assign = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/Object.assign");
 var PropTypes = require('../PropTypes');
 
 var REF_NAME = '__routeHandler__';
@@ -1528,10 +1528,10 @@ module.exports = RouteHandler;
 /* jshint -W058 */
 'use strict';
 
-var React = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react");
-var warning = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/warning");
-var invariant = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/invariant");
-var canUseDOM = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/ExecutionEnvironment").canUseDOM;
+var React = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react");
+var warning = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/warning");
+var invariant = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/invariant");
+var canUseDOM = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/ExecutionEnvironment").canUseDOM;
 var LocationActions = require('./actions/LocationActions');
 var ImitateBrowserBehavior = require('./behaviors/ImitateBrowserBehavior');
 var HashLocation = require('./locations/HashLocation');
@@ -2046,9 +2046,9 @@ module.exports = createRouter;
 /* jshint -W084 */
 'use strict';
 
-var React = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react");
-var assign = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/Object.assign");
-var warning = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/warning");
+var React = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react");
+var assign = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/Object.assign");
+var warning = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/warning");
 var DefaultRoute = require('./components/DefaultRoute');
 var NotFoundRoute = require('./components/NotFoundRoute');
 var Redirect = require('./components/Redirect');
@@ -2130,8 +2130,8 @@ module.exports = createRoutesFromReactChildren;
 (function (global){
 'use strict';
 
-var invariant = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/invariant");
-var canUseDOM = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/ExecutionEnvironment").canUseDOM;
+var invariant = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/invariant");
+var canUseDOM = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/ExecutionEnvironment").canUseDOM;
 
 /**
  * Returns the current scroll position of the window as { x, y }.
@@ -2184,7 +2184,7 @@ exports.run = require('./runRouter');
 (function (global){
 'use strict';
 
-var React = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react");
+var React = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react");
 
 function isValidChild(object) {
   return object == null || React.isValidElement(object);
@@ -2436,7 +2436,7 @@ var _classCallCheck = function (instance, Constructor) { if (!(instance instance
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var invariant = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/invariant");
+var invariant = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/invariant");
 
 function throwCannotModify() {
   invariant(false, 'You cannot modify a static location');
@@ -2489,7 +2489,7 @@ var _classCallCheck = function (instance, Constructor) { if (!(instance instance
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var invariant = (typeof window !== "undefined" ? window.React.require : typeof global !== "undefined" ? global.React.require : null)("react/lib/invariant");
+var invariant = (typeof window !== "undefined" ? window['React']['require'] : typeof global !== "undefined" ? global['React']['require'] : null)("react/lib/invariant");
 var LocationActions = require('../actions/LocationActions');
 var History = require('../History');
 
