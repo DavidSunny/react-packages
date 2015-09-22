@@ -4,9 +4,9 @@
 ################ Meteor ################
 .meteor/local
 settings.json
-packages/npm-container/.npm/*
 data.geojson
 
+.npm/
 
 ################ Mac OS X ################
 .DS_Store
@@ -18,7 +18,7 @@ data.geojson
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 
 ## Directory-based project format
-.idea/*
+.idea/
 # if you remove the above rule, at least ignore user-specific stuff:
 # .idea/workspace.xml
 # .idea/tasks.xml
